@@ -1,0 +1,80 @@
+header{
+	text-align: center;
+}
+@font-face {
+    font-family: HinaMincho;
+    src: url("../fonts/HinaMincho-Regular-2.ttf");
+}
+.h_title{
+	font-family: HinaMincho;
+}
+.content{
+	padding: 10px;
+	line-height: 26px;
+}
+.ctx_title{
+	padding-left: 30px;
+}
+.context{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.media{
+	margin-top: 20px;
+	text-align: center;
+}
+.video{
+	width: 600px;
+	height: 400px;
+}
+.row{
+	width:720px;
+	margin: 10px auto 10px auto ;
+}
+.image-container {
+	display: table-cell;
+	vertical-align: middle;
+	padding:20px;
+}
+.navbar {
+	width: 100%;
+	background-color: #232323;
+	overflow: auto;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: #f1f1f1;
+	text-decoration: none;
+	font-size: 20px;
+	width: 30%;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: #868686;
+}
+
+.h_title h1 {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	color: #f1f1f1;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	opacity: 100%;
+}
+
+.ctx_title {
+	
+	width: 100%;
+	text-align: center;
+	color: #f1f1f1;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	opacity: 100%;
+}
